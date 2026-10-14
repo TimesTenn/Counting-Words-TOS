@@ -150,35 +150,48 @@
     meaning they are intended to be visible only to the user
     who invoked the command.
   </p>
+ 
+<h2>4. Data Storage and Retention</h2>
+<p>
+  Counting Words recalculates word counts from accessible
+  message history whenever the command is run. The command
+  may take a moment to complete if there is a large message
+  history in the channel.
+</p>
+<p>
+  Counting Words does not intentionally maintain a database
+  of message content or save word-count totals between
+  command uses. Message content is processed temporarily
+  as needed to calculate the requested results.
+</p>
+<p>
+  Counting Words does not intentionally retain message content
+  after processing a word-count request. However, information
+  may still be present in temporary runtime memory, diagnostic
+  logs, or other system records depending on the bot's
+  implementation and hosting environment.
+</p>
+<p>
+  This policy applies to Counting Words and does not determine
+  how long Discord itself retains messages under its own
+  policies.
+</p>
 
-  <h2>4. Data Storage and Retention</h2>
-  <p>
-    Counting Words recalculates word counts from accessible
-    message history whenever the command is run. The command
-    may take a moment to run if there is a large message history
-    in the channel.
-  </p>
-  <p>
-    As currently stated, Counting Words does not maintain a
-    database of message content or persist word-count totals
-    between command uses.
-  </p>
-  <p>
-    Message content is processed to calculate the requested
-    results. This does not mean that Discord itself does not
-    retain messages under its own policies.
-  </p>
+<h2>5. Sharing of Information</h2>
+<p>
+  Counting Words' operator does not intentionally sell or
+  disclose message content to third parties. Message content
+  is accessed and processed as necessary to provide the
+  bot's word-counting functionality.
+</p>
+<p>
+  Counting Words operates through Discord's platform and API.
+  Discord processes information in accordance with its own
+  policies and applicable terms. The bot's hosting provider
+  may also process technical information necessary to operate
+  the bot, depending on the hosting environment.
+</p>
 
-  <h2>5. Sharing of Information</h2>
-  <p>
-    Counting Words' operator does not intentionally record,
-    sell, or share message content with third parties.
-  </p>
-  <p>
-    Counting Words operates through Discord's platform and API.
-    Information may therefore be processed by Discord in
-    accordance with Discord's own policies and applicable terms.
-  </p>
 
   <h2>6. Security</h2>
   <p>
